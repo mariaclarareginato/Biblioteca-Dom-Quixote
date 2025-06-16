@@ -1,0 +1,210 @@
+body {
+    background-color: #DBEEF4 ;
+   }
+   
+   .c1 {
+       background-color: #c8d7ea;
+       height: 900px;
+       padding: 240px 300px;
+   }
+   
+   .c2 {
+       background-color: #dadfe8;
+       height: 1400px;
+       padding: 130px 400px;
+   }
+   
+   .texto2 {
+       max-width: 570px;
+       font-size: 30px;
+       
+   }
+   
+   .texto2 {
+       max-width: 700px;
+       font-size: large;
+   }
+   
+   .title2 {
+       text-align: center;
+       font-size: 100px;
+       font-family: Georgia, 'Times New Roman', Times, serif;
+   }
+   
+   .content-wrapper {
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+       gap: 10px;
+       flex-wrap: wrap;
+   }
+   
+   
+   .text-side {
+       flex: 1;
+   }
+   
+   
+   .img-side {
+       padding-left: 30px;
+       max-width: 460px;
+       height: auto;
+       border-radius: 12px;
+       transition: transform 0.3s ease;
+   }
+   
+   .img-side:hover {
+       transform: scale(1.2);
+   }
+   
+   
+   
+   .final-container {
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+       gap: 50px;
+       flex-wrap: wrap;
+   }
+   
+   .titulo3 {
+       font-size: 4.3rem;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+      
+   }
+   
+   .desenhoc {
+       text-align: center;
+       margin-top: 60px;
+   }
+   
+   
+     
+     .contato-sub {
+       text-align: center;
+       font-size: 1.2rem;
+       margin-bottom: 40px;
+     }
+
+     
+     
+     .form-contato {
+       display: flex;
+       flex-direction: column;
+       gap: 20px;
+     }
+     
+     .form-contato label {
+       display: flex;
+       flex-direction: column;
+       font-size: 1rem;
+     }
+     
+     .form-contato input,
+     .form-contato textarea {
+       padding: 10px;
+       font-size: 1rem;
+       border: 1px solid plum;
+       border-radius: 8px;
+       margin-top: 5px;
+       background-color: #a6bfdc;
+     }
+
+      
+     .form-contato input:hover,
+     .form-contato textarea:hover {
+       padding: 10px;
+       font-size: 1rem;
+       border: 1px solid plum;
+       border-radius: 8px;
+       margin-top: 5px;
+       background-color: purple;
+     }
+     
+     .form-contato button {
+       align-self: flex-start;
+       padding: 10px 20px;
+       font-size: 1rem;
+       background-color: #ece6f9;
+       color: #636262;
+       border: none;
+       border-radius: 8px;
+       cursor: pointer;
+       transition: background 0.3s ease;
+     }
+     
+     .form-contato button:hover {
+       background-color: #a6bfdc;
+     }
+     
+    
+     
+   
+   
+   /* Responsividade */
+   
+   
+   @media (max-width: 600px) {
+       
+       .form-contato button {
+           align-self: center;
+         }
+   
+       .desenhoc {
+           font-size: 1.5rem; 
+       }
+   }
+   
+   
+   @media (max-width: 768px) {
+       .c1, .c2 {
+           padding: 50px 20px; 
+       }
+
+       .texto {
+        font-size: 20px; 
+    }
+   
+       .title2 {
+           font-size: 50px; 
+       }
+   
+       .img-side {
+           max-width: 100%; 
+       }
+   
+       .content-wrapper, .final-container {
+           flex-direction: column; 
+           align-items: center; 
+       }
+   }
+   
+   @media (max-width: 1550px) {
+       .c1, .c2 {
+           padding: 80px 20px; 
+           height: auto; 
+       }
+   
+       .title2 {
+           font-size: 70px; 
+       }
+   
+       .img-side {
+           max-width: 200px; 
+           padding-left: 0; 
+           margin: 20px 0; 
+       }
+   
+       .content-wrapper, .final-container {
+           flex-direction: column; 
+           align-items: center; 
+       }
+   
+       .texto {
+           max-width: 90%; 
+       }
+   
+       .titulo3 {
+           font-size: 3rem; 
+       }
+   }

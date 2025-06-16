@@ -1,0 +1,87 @@
+/* Título */
+.titulo5 {
+  text-align: center;
+  font-size: 60px;
+  padding: 40px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Container geral */
+.formulario {
+  background-color: #dadfe8;
+  min-height: 100vh;
+  padding: 50px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Estilizando o formulário */
+.formulario2 {
+  width: 100%;
+  max-width: 600px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(190, 143, 143, 0.1);
+}
+
+/* Inputs */
+input {
+  background-color: purple;
+  width: 100%;
+  max-width: 700px;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+/* Foco nos inputs */
+input:focus {
+  background-color: plum;
+  outline: none;
+}
+
+/* Classes específicas de inputs */
+input.nome,
+input.email,
+input.senha {
+  margin-bottom: 15px;
+}
+
+/* Botão */
+button {
+  width: 100%;
+  max-width: 200px;
+  padding: 12px;
+  background-color: plum;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px!important;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-align: center;
+}
+
+button:hover {
+  background-color: #dadfe8;
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+  .titulo5 {
+    font-size: 29px;
+    padding: 20px;
+  }
+
+  button {
+    max-width: 100%;
+  }
+}
