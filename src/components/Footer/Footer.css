@@ -1,0 +1,46 @@
+.titulo {
+    color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+.icones {
+    color:black;
+    text-align: center;
+    padding: 10px;
+}
+
+.icones:hover {
+    color:purple;
+  
+}
+
+.footer {
+    background-color: #c8d7ea;
+    text-align: center;
+}
+
+
+@media (max-width: 768px) {
+    .titulo {
+      font-size: 1.5rem;
+      margin-left: 25px;
+    }
+  
+    .icones{
+       margin-left: 25px;
+    }
+  }
+  
+  @media (max-width: 910px) {
+    .titulo {
+        font-size: 1.5rem;
+        margin-left: 30px;
+      }
+    
+      .icones{
+         margin-left: 30px;
+      }
+ 
+  }
+  

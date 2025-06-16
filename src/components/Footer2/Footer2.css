@@ -1,0 +1,102 @@
+.footer2 {
+    
+    background-color: #ffffff;
+    color: rgb(31, 19, 19);
+    padding: 40px 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 30px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .footer2 .footer-section,
+  .footer2 .section,
+  .footer2 .iconespagamento {
+    flex: 1 1 250px;
+    min-width: 200px;
+  }
+  
+  .footer2 h2, .footer2 h3 {
+    color: #070705;
+    margin-bottom: 10px;
+  }
+  
+  .footer2 a {
+    color: rgb(85, 78, 78);
+    text-decoration: none;
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  .footer2 a:hover {
+    text-decoration: underline;
+    color: plum;
+  }
+  
+  .footer2 .app-icons img,
+  .footer2 .payment-icons img {
+     
+    height: 60px;
+    margin-right: 10px;
+    transition: transform 0.3s ease; 
+  }
+  
+  .footer2 .app-icons img:hover {
+    transform: scale(1.10);
+  }
+  
+  .footer2 .payment-icons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 10px;
+    
+
+  }
+  
+  .footer2 .app-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 120px;
+  }
+  
+  /* Responsividade */
+
+  @media (max-width: 768px) {
+
+
+
+    @media (max-width: 768px) {
+        .footer2 .app-icons {
+          margin-left: 40px;
+          justify-content: center;
+          align-items: center;
+          gap: 10px;
+           
+        }
+      
+    }
+      
+
+    .footer2 {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .footer2 .app-icons,
+    .footer2 .payment-icons {
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .footer2 .app-icons img,
+    .footer2 .payment-icons img {
+      margin: 20px 50px;
+     
+     
+    }
+  }
+  
