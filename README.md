@@ -23,7 +23,7 @@ Criar um ambiente digital onde:
 
 ## História do Projeto
 
-Era uma vez, em uma pequena cidade cheia de charme e literatura, duas amigas inseparáveis: Maria Clara Reginato e Charlotte Guedes de Araújo. Desde a infância, elas compartilhavam uma paixão por livros, passando horas em bibliotecas e livrarias, sonhando em um dia ter o seu
+Era uma vez, duas amigas inseparáveis: Maria Clara Reginato e Charlotte Guedes de Araújo. Desde a infância, elas compartilhavam uma paixão por livros, passando horas em bibliotecas e livrarias, sonhando em um dia ter o seu
 próprio espaço dedicado à leitura. Após anos de amizade e muitos planos discutidos, Maria Clara e Charlotte decidiram transformar seu sonho em realidade. E assim, as duas amigas continuaram a sonhar e a escrever novas histórias, não só nas páginasdos livros, mas também nas vidas de todos que passavam pela "Dom Quixote". Juntas, elas provaram que a amizade e a literatura podem transformar o mundo ao nosso redor.
 
 ---
